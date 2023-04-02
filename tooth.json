@@ -1,0 +1,27 @@
+{
+  "commands": [],
+  "confirmation": [],
+  "dependencies": {},
+  "format_version": 1,
+  "information": {
+    "author": "lymo",
+    "description": "Customize different messages for each player when joining game.",
+    "homepage": "https://space.bilibili.com/34461901",
+    "license": "BSD",
+    "name": "joinMessage"
+  },
+  "placement": [
+    {
+      "source": "join_message.dll",
+      "destination": "plugins/join_message.dll"
+    }
+  ],
+  "possession": [],
+  "tool": {
+    "description": "",
+    "entrypoints": [],
+    "name": ""
+  },
+  "tooth": "github.com/LymoProjects/joinMessageBuild",
+  "version": "0.0.0"
+}
