@@ -7,7 +7,7 @@
     "author": "lymo",
     "description": "Customize different messages for each player when joining game.",
     "homepage": "https://space.bilibili.com/34461901",
-    "license": "BSD",
+    "license": "",
     "name": "joinMessage"
   },
   "placement": [
