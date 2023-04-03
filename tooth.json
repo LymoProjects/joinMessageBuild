@@ -4,11 +4,11 @@
   "dependencies": {},
   "format_version": 1,
   "information": {
-    "author": "lymo",
-    "description": "可以为每位玩家自定义进入服务器时的消息提示.",
+    "author": "lymoProjects",
+    "description": "玩家可以自定义自己进入服务器时的消息提示.",
     "homepage": "https://space.bilibili.com/34461901",
     "license": "",
-    "name": "自定义登录消息"
+    "name": "自定义登录提示消息"
   },
   "placement": [
     {
@@ -17,7 +17,7 @@
     }
   ],
   "possession": [
-    "plugins/join_message/"
+    "plugins/.join_message/"
   ],
   "tool": {
     "description": "",
@@ -25,5 +25,5 @@
     "name": ""
   },
   "tooth": "github.com/LymoProjects/joinMessageBuild",
-  "version": "0.2.0"
+  "version": "0.3.0"
 }
