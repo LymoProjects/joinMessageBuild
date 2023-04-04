@@ -1,29 +1,29 @@
 {
-  "commands": [],
-  "confirmation": [],
-  "dependencies": {},
-  "format_version": 1,
-  "information": {
-    "author": "LymoProjects",
-    "description": "玩家可以自定义自己进入服务器时的全局消息提示.",
-    "homepage": "https://space.bilibili.com/34461901",
-    "license": "MIT",
-    "name": "自定义登录提示消息"
-  },
-  "placement": [
-    {
-      "source": "join_message.dll",
-      "destination": "plugins/join_message.dll"
-    }
-  ],
-  "possession": [
-    "plugins/.join_message/"
-  ],
-  "tool": {
-    "description": "",
-    "entrypoints": [],
-    "name": ""
-  },
-  "tooth": "github.com/LymoProjects/joinMessageBuild",
-  "version": "1.0.0"
+    "commands": [],
+    "confirmation": [],
+    "dependencies": {},
+    "format_version": 1,
+    "information": {
+        "author": "lymo",
+        "description": "玩家可以自定义自己进入服务器时的全局消息提示.",
+        "homepage": "https://space.bilibili.com/34461901",
+        "license": "MIT",
+        "name": "自定义登录提示消息"
+    },
+    "placement": [
+        {
+            "source": "join_message.dll",
+            "destination": "plugins/join_message.dll"
+        }
+    ],
+    "possession": [
+        "plugins/.join_message/"
+    ],
+    "tool": {
+        "description": "",
+        "entrypoints": [],
+        "name": ""
+    },
+    "tooth": "github.com/LymoProjects/joinMessageBuild",
+    "version": "1.0.0"
 }
