@@ -8,7 +8,7 @@
         "description": "玩家可以自定义自己进入服务器时的服务器消息提示, 全局玩家可见.",
         "homepage": "https://space.bilibili.com/34461901",
         "license": "MIT",
-        "name": "自定义入服消息广播"
+        "name": "join_message"
     },
     "placement": [
         {
@@ -25,5 +25,5 @@
         "name": ""
     },
     "tooth": "github.com/LymoProjects/joinMessageBuild",
-    "version": "1.0.2"
+    "version": "1.1.0"
 }
