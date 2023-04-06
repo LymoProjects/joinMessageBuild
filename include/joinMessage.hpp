@@ -30,19 +30,24 @@ namespace lymoProjects__ {
         auto operator=(joinMessage const &) -> joinMessage & = delete;
 
         // * Get the only joinMessage object in the entire program life time.
-        // * All public member functions are thread-safe.
         static 
         auto ref() -> joinMessage &;
 
+        // * thread-safe function.
         // * Get a boolean value for whether there is a join message for the id. 
         auto has(std::string const & id) const -> bool;
 
+        // * thread-safe function.
         // * Set join message with msg for the player who has this id.
         auto set(std::string id, std::string msg) -> void;
 
+        // * thread-safe function.
         // * Get join message for the id.
+        // * if this id does not have a join message, function will return ""(empty string),
+        // * so you do not need to call has(std::string) before you call this function.
         auto get(std::string id) const -> std::string;
 
+        // * thread-safe function.
         // * Remove join message for the id.
         auto erase(std::string id) -> void;
     };
