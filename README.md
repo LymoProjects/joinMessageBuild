@@ -1,6 +1,11 @@
 # join_message插件仓库
 将join_message.dll文件丢到plugins目录下即可.
 
+## 支持版本
+本插件的开发环境为: Version 1.19.73.02(ProtocolVersion 575) with LiteLoaderBDS 2.12.3+6dd902b.
+
+理论上支持所有协议版本为575的服务器版本.
+
 ## 游戏内使用方法:
 输入指令 /jm 即可调出插件图形界面.
 
